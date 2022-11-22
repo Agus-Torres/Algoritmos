@@ -1,0 +1,92 @@
+body{
+    background-color:black;
+}
+
+#container{
+    display: flex;
+    width: 80vw;
+    height: 40vh;
+    background-color: coral;
+    border-radius: 5px;
+    border: outset 1px red;
+    margin: 20px auto 0px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.column div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16%;
+    border-bottom: outset 1px red;
+    color: red;
+}
+
+.pages{
+    display: flex;
+    width: 80vw;
+    margin: 10px auto;
+}
+
+.pages button{
+    width: 25%;
+    padding: 10px;
+    background-color:rgba(149, 255, 255, 0.468);
+    border: outset 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all ease-in-out 0.5s;
+}
+
+.pages button:hover{
+    background-color: yellow;
+}
+
+.add{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all ease-in-out 0.5s;
+}
+
+.add:hover{
+    background-color: yellowgreen;
+}
+
+.correct{
+    display: flex;
+    margin: auto;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: green;
+}
+
+.false{
+    display: flex;
+    margin: auto;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+}
+
+.progressBar{
+    display: flex;
+    margin: 15vh auto 0px;
+    width: 80%;
+    height: 2vh;
+    background-color: wheat;
+    border-radius: 50px;
+}
+
+.progress{
+    height: 100%;
+    background-color: rgb(94, 151, 7);
+    border-radius: 50px;
+}
